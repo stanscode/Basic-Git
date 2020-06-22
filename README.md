@@ -1,3 +1,7 @@
 BASIC GIT 
 ===========
-a simple project/practice for understanding the basic workflow of Git from The Odin Project.
+This is my first git project.
+
+a simple project/practice for understanding the basic workflow of Git. 
+
+Learned from The Odin Project.
