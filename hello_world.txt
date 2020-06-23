@@ -1,1 +1,5 @@
 Hello World!
+
+This is my first git project!
+
+Part of The Odin Project's Web Development 101 Course.
