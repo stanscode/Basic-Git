@@ -9,15 +9,16 @@ def rectangle_area(y,z):
    
 
 print ("Circle and Rectangle Area")
-print ("Which Area do you want to calculate?")
+print ("Which Area do you want to calculate?     *type in lowercase")
 choice = input("")
 
-if choice == "circle":
-    x = int(input("Enter the circle radii: "))
+if (choice == "circle"):
+    x = int(input("Enter the circle radius: "))
     circle_area(x)
-
-
-if choice == "rectangle":
+elif (choice == "rectangle"):
     y = int(input("Enter the rectangle length: "))
     z = int(input("Enter the rectangle width: "))
     rectangle_area(y,z)
+else:
+    print (choice + " is not computable ")
+ 
