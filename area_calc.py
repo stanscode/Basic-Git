@@ -1,29 +1,25 @@
 #The Area Function
 def circle_area(x):
-    print ((x**2)*3.14)
-    return
-   
+    print ((x**2)*3.14)   
 
 def rectangle_area(y,z):
     print (y*z)
-    return
 
 def parallelogram_area(w,v):
     print (w*v)
-    return    
    
 print ("Circle, Rectangle and Parallelogram Calculator")
-print ("Which Area do you want to calculate?     *type in lowercase")
+print ("Which Area do you want to calculate?")
 choice = input("")
 
-if (choice == "circle"):
+if (choice == "circle" or choice == "Circle"):
     x = int(input("Enter the circle radius: "))
     circle_area(x)
-elif (choice == "rectangle"):
+elif (choice == "rectangle" or choice == "Rectangle"):
     y = int(input("Enter the rectangle length: "))
     z = int(input("Enter the rectangle width: "))
     rectangle_area(y,z)
-elif (choice == "parallelogram"):
+elif (choice == "parallelogram" or choice == "Parallelogram"):
     w = int(input("Enter the parallelogram base: "))
     v = int(input("Enter the parallelogram height: "))
     parallelogram_area(w,v)    
