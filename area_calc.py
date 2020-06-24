@@ -12,14 +12,14 @@ print ("Circle, Rectangle and Parallelogram Calculator")
 print ("Which Area do you want to calculate?")
 choice = input("")
 
-if (choice == "circle" or choice == "Circle"):
+if (choice == "circle" or choice == "Circle" or choice == "CIRCLE"):
     x = int(input("Enter the circle radius: "))
     circle_area(x)
-elif (choice == "rectangle" or choice == "Rectangle"):
+elif (choice == "rectangle" or choice == "Rectangle" or choice == "RECTANGLE"):
     y = int(input("Enter the rectangle length: "))
     z = int(input("Enter the rectangle width: "))
     rectangle_area(y,z)
-elif (choice == "parallelogram" or choice == "Parallelogram"):
+elif (choice == "parallelogram" or choice == "Parallelogram" or choice == "PARALLELOGRAM"):
     w = int(input("Enter the parallelogram base: "))
     v = int(input("Enter the parallelogram height: "))
     parallelogram_area(w,v)    
